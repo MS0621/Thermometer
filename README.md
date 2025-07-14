@@ -59,7 +59,7 @@
 
 
 - 사용된 회로도 및 부품명
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/98c13f9a-d741-4aa5-9071-a1d29ada3e86" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/98c13f9a-d741-4aa5-9071-a1d29ada3e86" />
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6b0d8251-ddf2-4d7c-af08-c138265d0992" />
 
 
