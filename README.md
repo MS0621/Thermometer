@@ -51,8 +51,17 @@
 
 ## 4. 🔧 기술 설계 및 문서화
 
-- 센서 사양 및 작동 원리에 따른 기구 배치
-- 착용 시 안전성을 고려한 곡선형 디자인
+- black body를 이용한 정확한 calibration 진행
+
+<img width="1393" height="440" alt="Image" src="https://github.com/user-attachments/assets/4760c789-3fac-4024-8de5-c1724d639764" />
+
+
+- 사용된 회로도 및 부품명
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/98c13f9a-d741-4aa5-9071-a1d29ada3e86" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6b0d8251-ddf2-4d7c-af08-c138265d0992" />
+
+
 - 3D 모델링 및 기술 문서 작성 완료
 
 ---
