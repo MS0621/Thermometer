@@ -31,7 +31,7 @@
 ### ✅ 모델링 특징
 
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/1e6b0a54-853a-4028-ad2f-4aebd93ed2df" />
-<img width="200" height="180" alt="Image" src="https://github.com/user-attachments/assets/a069fea4-9ab3-4144-a61b-fb112f19a328" />
+<img width="400" height="180" alt="Image" src="https://github.com/user-attachments/assets/a069fea4-9ab3-4144-a61b-fb112f19a328" />
 
 - 실제 체온계 센서 기반 설계
 - 아이가 직접 착용 가능하도록 장갑 형태로 착용
