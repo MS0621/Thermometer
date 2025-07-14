@@ -30,6 +30,8 @@
 
 ### ✅ 모델링 특징
 
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/1e6b0a54-853a-4028-ad2f-4aebd93ed2df" />
+
 - 실제 체온계 센서 기반 설계
 - 아이가 직접 착용 가능하도록 장갑 형태로 착용
 - 디자인 요소는 장난감에 가까운 형태로 유도
@@ -37,8 +39,8 @@
 ### ✅ 시야각(Field of View) 설정
 
 
-<img width="599" height="693" alt="Image" src="https://github.com/user-attachments/assets/64758b3a-5811-4c39-8416-47d9a5b80df7" />
-<img width="897" height="639" alt="Image" src="https://github.com/user-attachments/assets/681ea591-b5e2-4092-a457-60e8867a6f97" />
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/681ea591-b5e2-4092-a457-60e8867a6f97" />
+<img width="350" height="350" alt="Image" src="https://github.com/user-attachments/assets/64758b3a-5811-4c39-8416-47d9a5b80df7" />
 
 
 - Data Sheet에 따라 **90도 시야각**으로 설정
