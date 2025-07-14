@@ -1,72 +1,65 @@
-![](./resources/official_armmbed_example_badge.png)
-# Blinky Mbed OS example
+# 🌡️ 아이들을 위한 놀이 기반 체온 측정 디바이스 설계
 
-The example project is part of the [Arm Mbed OS Official Examples](https://os.mbed.com/code/) and is the [getting started example for Mbed OS](https://os.mbed.com/docs/mbed-os/latest/quick-start/index.html). It contains an application that repeatedly blinks an LED on supported [Mbed boards](https://os.mbed.com/platforms/).
+## 1. 📌 프로젝트 개요
 
-You can build the project with all supported [Mbed OS build tools](https://os.mbed.com/docs/mbed-os/latest/tools/index.html). However, this example project specifically refers to the command-line interface tool [Arm Mbed CLI](https://github.com/ARMmbed/mbed-cli#installing-mbed-cli).
-(Note: To see a rendered example you can import into the Arm Online Compiler, please see our [import quick start](https://os.mbed.com/docs/mbed-os/latest/quick-start/online-with-the-online-compiler.html#importing-the-code).)
+- 본 프로젝트는 병원 등 의료 환경에서 **아이들이 체온 측정에 두려움을 느끼는 문제**를 해결하고자 기획되었습니다.
+- 아이들이 스스로 착용하여 **놀이처럼 체온을 측정**할 수 있도록 유도하는 **헬스케어 디바이스 설계**를 목표로 합니다.
 
-## Mbed OS build tools
+📅 **진행 기간**: 2024년 10월 8일 ~ 10일  
+👤 **참여자**: 정민섭 (20195293)
 
-### Mbed CLI 2
-Starting with version 6.5, Mbed OS uses Mbed CLI 2. It uses Ninja as a build system, and CMake to generate the build environment and manage the build process in a compiler-independent manner. If you are working with Mbed OS version prior to 6.5 then check the section [Mbed CLI 1](#mbed-cli-1).
-1. [Install Mbed CLI 2](https://os.mbed.com/docs/mbed-os/latest/build-tools/install-or-upgrade.html).
-1. From the command-line, import the example: `mbed-tools import mbed-os-example-blinky`
-1. Change the current directory to where the project was imported.
+---
 
-### Mbed CLI 1
-1. [Install Mbed CLI 1](https://os.mbed.com/docs/mbed-os/latest/quick-start/offline-with-mbed-cli.html).
-1. From the command-line, import the example: `mbed import mbed-os-example-blinky`
-1. Change the current directory to where the project was imported.
+## 2. 🛠️ 기구 설계 컨셉
 
-## Application functionality
+### ✅ 문제 인식
 
-The `main()` function is the single thread in the application. It toggles the state of a digital output connected to an LED on the board.
+- 병원에서 체온을 재려는 순간 우는 아이를 관찰
+- 익숙하지 않은 경험 자체가 공포로 다가옴
+- '측정'이 아닌 '놀이'라는 인식을 부여하고자 함
 
-**Note**: This example requires a target with RTOS support, i.e. one with `rtos` declared in `supported_application_profiles` in `targets/targets.json` in [mbed-os](https://github.com/ARMmbed/mbed-os). For non-RTOS targets (usually with small memory sizes), please use [mbed-os-example-blinky-baremetal](https://github.com/ARMmbed/mbed-os-example-blinky-baremetal) instead.
+### ✅ 목표
 
-## Building and running
+- **아이 주도적 체온 측정 경험 제공**
+- **부드럽고 친근한 디자인** 채택
+- **간편한 착용**과 **놀이 요소** 포함
 
-1. Connect a USB cable between the USB port on the board and the host computer.
-1. Run the following command to build the example project and program the microcontroller flash memory:
+---
 
-    * Mbed CLI 2
+## 3. 🧱 제품 모델링
 
-    ```bash
-    $ mbed-tools compile -m <TARGET> -t <TOOLCHAIN> --flash
-    ```
+### ✅ 모델링 특징
 
-    * Mbed CLI 1
+- 실제 체온계 센서 기반 설계
+- 아이 손목이나 이마에 쉽게 착용 가능
+- 디자인 요소는 장난감에 가까운 형태로 유도
 
-    ```bash
-    $ mbed compile -m <TARGET> -t <TOOLCHAIN> --flash
-    ```
+### ✅ 시야각(Field of View) 설정
 
-Your PC may take a few minutes to compile your code.
+- Data Sheet에 따라 **90도 시야각**으로 설정
+- 아이가 움직여도 일정 각도 내에서 체온 인식 가능
 
-The binary is located at:
-* **Mbed CLI 2** - `./cmake_build/mbed-os-example-blinky.bin`</br>
-* **Mbed CLI 1** - `./BUILD/<TARGET>/<TOOLCHAIN>/mbed-os-example-blinky.bin`
+---
 
-Alternatively, you can manually copy the binary to the board, which you mount on the host computer over USB.
+## 4. 🔧 기술 설계 및 문서화
 
-## Expected output
-The LED on your target turns on and off every 500 milliseconds.
+- 센서 사양 및 작동 원리에 따른 기구 배치
+- 착용 시 안전성을 고려한 곡선형 디자인
+- 3D 모델링 및 기술 도면 작성 완료
 
+---
 
-## Troubleshooting
-If you have problems, you can review the [documentation](https://os.mbed.com/docs/latest/tutorials/debugging.html) for suggestions on what could be wrong and how to fix it.
+## 5. 🌟 기대 효과
 
-## Related Links
+- **아이들의 의료 기기 공포 감소**
+- 병원, 소아과, 어린이집 등에서 활용 가능
+- **자발적인 체온 측정 습관 형성**에 기여
 
-* [Mbed OS Stats API](https://os.mbed.com/docs/latest/apis/mbed-statistics.html).
-* [Mbed OS Configuration](https://os.mbed.com/docs/latest/reference/configuration.html).
-* [Mbed OS Serial Communication](https://os.mbed.com/docs/latest/tutorials/serial-communication.html).
-* [Mbed OS bare metal](https://os.mbed.com/docs/mbed-os/latest/reference/mbed-os-bare-metal.html).
-* [Mbed boards](https://os.mbed.com/platforms/).
+---
 
-### License and contributions
+## 🖼️ 포스터 또는 설계 이미지
 
-The software is provided under Apache-2.0 license. Contributions to this project are accepted under the same license. Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more info.
+> PDF 기반의 설계 이미지나 도면이 있다면 아래처럼 삽입하세요:
 
-This project contains code from other projects. The original license text is included in those source files. They must comply with our license guide.
+```markdown
+![기구 모델링 이미지](https://github.com/user-attachments/assets/your_image_id.png)
