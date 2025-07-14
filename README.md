@@ -5,7 +5,7 @@
 - 본 프로젝트는 병원 등 의료 환경에서 **아이들이 체온 측정에 두려움을 느끼는 문제**를 해결하고자 기획되었습니다.
 - 아이들이 스스로 착용하여 **놀이처럼 체온을 측정**할 수 있도록 유도하는 **헬스케어 디바이스 설계**를 목표로 합니다.
 
-📅 **진행 기간**: 2023년 9월 ~ 11월  
+📅 **진행 기간**: 2023년 9월 ~ 12월  
 👤 **참여자**: 정민섭 (20195293)
 
 ---
@@ -36,6 +36,8 @@
 
 ### ✅ 시야각(Field of View) 설정
 
+
+<img width="599" height="693" alt="Image" src="https://github.com/user-attachments/assets/64758b3a-5811-4c39-8416-47d9a5b80df7" />
 <img width="897" height="639" alt="Image" src="https://github.com/user-attachments/assets/681ea591-b5e2-4092-a457-60e8867a6f97" />
 
 
