@@ -49,8 +49,8 @@
 <img width="350" height="350" alt="Image" src="https://github.com/user-attachments/assets/64758b3a-5811-4c39-8416-47d9a5b80df7" />
 
 
-- Data Sheet에 따라 **90도 시야각**으로 설정
-- 아이가 움직여도 일정 각도 내에서 체온 인식 가능
+- Data Sheet에 따라 Field Of View를 **90도**으로 설정
+- 정확한 체온 측정 가능
 
 ---
 
