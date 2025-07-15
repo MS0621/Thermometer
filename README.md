@@ -36,6 +36,7 @@
 - 실제 체온계 센서 기반 설계
 - 아이가 직접 착용 가능하도록 장갑 형태로 착용
 - 디자인 요소는 장난감에 가까운 형태로 유도
+  
 [![시연 영상 썸네일](https://img.youtube.com/vi/ZRSsF-CROd0/0.jpg)](https://youtu.be/ZRSsF-CROd0)
 
 > ▶️ 이미지를 클릭하면 YouTube에서 시연 영상을 바로 재생할 수 있습니다.
